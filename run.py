@@ -19,7 +19,7 @@ import train
 parser = argparse.ArgumentParser()
 
 parser.add_argument('-d', '--domain', type=str, default='both')  # don't change!
-parser.add_argument('-data_root', type=str, default='/root/cfl/dataset_DA')  # data root directory
+parser.add_argument('-data_root', type=str, default='/root/dataset_DA')  # data root directory
 parser.add_argument('-cuda', '--cuda', type=int, help='the gpu device id for training', default=1)
 parser.add_argument('-use', '--use_cuda', type=bool, help='whether use gpu', default=True)
 parser.add_argument('-s', '--source', type=str, help='the source dataset name', default='mnist')

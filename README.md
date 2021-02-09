@@ -26,13 +26,13 @@
 You can run the command in `run.sh` to train and evaluate on each task for digital dataset. Before that, you need to change the `data_root` (data root path), `modeldir`(model saving path), `logdir` (tensorboard saving path) and `cuda` (gpu  options) in the script.
 
 ```
-python run.py -s mnist -t mnist_m -cuda 0 -logdir /runs/FLF -modeldir /models/FLF -data_root /root/cfl/dataset_DA >results/mnist_mnist_m.log  2>&1
+python run.py -s mnist -t mnist_m -cuda 0 -logdir /runs/JFL -modeldir /models/JFL -data_root /root/dataset_DA >results/mnist_mnist_m.log  2>&1
 ```
 <!--
 ## Citation
 
 ```
-@article{FLF,
+@article{JFL,
   title={Joint Feature and Labeling Function Adaptation for Unsupervised Domain Adaptation},
   year={2020}
 }
